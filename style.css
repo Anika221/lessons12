@@ -1,0 +1,114 @@
+:root{
+    --gray-color: #212121;
+    --white-color:#FFFFFF;
+    --blu-color:#2196F3;
+    --gray2-color:#757575;
+}
+.header-title{
+    text-indent: 100px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--gray-color);
+}
+.div-title{
+    background-color: var(--gray-color);
+    width: 1435px;
+    height: 400px;
+}
+.new-title{
+    color: var(--white-color);
+    font-size: 44px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 80px;
+}
+button{
+    /*text-align: center;
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow: 0 8px 16px 0 rgba(165, 159, 159, 0.19), 0 6px 20px 0 rgba(165, 159, 159, 0.19);*/
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--blu-color);
+    font-family: 'Roboto', sans-serif;
+}
+button:hover{
+    background-color:var(--gray2-color);
+    transition-duration: 0.5s;
+}
+.div-p4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--gray2-color);
+}
+
+.ultimo-pezzo{
+    background-color: var(--gray-color);
+}
+
+/*.tittleimg1{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.nostrogruppo{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.fotodicosafacciamo{
+    text-align: center;
+    word-spacing: 30px;
+}
+.nostro-gruppo{
+    text-align: center;
+    word-spacing: 30px;
+}*/
+.div-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.tittlefooter{
+    font-family: 'Raleway', sans-serif;
+    color: var(--white-color);
+}
+.footer-p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--gray2-color);
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.title-article{
+    text-align: center;
+}
+/*.container-header {
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+}*/
+.header-link{
+    text-decoration-line: none;
+    color: var(--gray-color);
+}
+.div-text{
+    width: 270px;
+    height: 98px;
+}
+.footer-p2{
+    color: var(--white-color);
+}
+.titleh3{
+    font-family: 'Roboto', sans-serif;
+    
+}
